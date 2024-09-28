@@ -18,5 +18,5 @@ const App = () => (
     </Routes>
   </Router>
 );
-
+export default App;  // Assurez-vous d'exporter par défaut
 ReactDOM.render(<App />, document.getElementById('root'));
