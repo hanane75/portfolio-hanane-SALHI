@@ -3,6 +3,8 @@ import Header from './Header';
 import '../App.css';
 import HeroSection from './HeroSection';
 
+import Projects from './Projects';
+
 
 const Home = () => {
   return (
@@ -10,6 +12,7 @@ const Home = () => {
     <section>
         <Header />
         <HeroSection />
+        <Projects />
       
 
     </section>
