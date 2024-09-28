@@ -1,15 +1,19 @@
 import React from 'react';
 import Header from './Header';
-import '../styles/Header.css';
+import '../App.css';
+import HeroSection from './HeroSection';
+
 
 const Home = () => {
   return (
 
     <section>
         <Header />
-      <h1>Bienvenue sur mon portfolio</h1>
-      <p>Je suis Hanane SALHI, développeur web.</p>
+        <HeroSection />
+      
+
     </section>
+   
   );
 };
 

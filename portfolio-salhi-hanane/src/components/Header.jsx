@@ -1,12 +1,11 @@
 import React from 'react';
-import '../styles/Header.css'; 
 
 const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <img src="path/to/your/logo.png" alt="Logo" />
-        <span className="logo-text">S.H</span>
+        <img src="logo-portfolio.png" alt="Logo" />
+        <span className="logo-text">SALHI Hanane </span>
       </div>
       <nav className="nav">
         <ul>
