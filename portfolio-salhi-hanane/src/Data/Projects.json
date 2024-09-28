@@ -1,0 +1,17 @@
+[
+    {
+      "name": "BOOKI",
+      "description": "Créer un prototype de site en intégrant la maquette conçue par le designer UI, en HTML et CSS. Le site doit être responsive..",
+      "url": "https://github.com/hanane75/projet3-Booki",
+      "technologies": ["HTML", "CSS"],
+      "image": "carou.png"
+    },
+    {
+      "name": "OhMyFood",
+      "description": "Intégrer la maquette créée par le designer UI en mobilefirst en respectant les contraintes graphiques et d'animations, sans utiliser de JavaScript.",
+      "url": "https://github.com/hanane75/projet4-ohmyfood",
+      "technologies": ["HTML", "CSS","SASS"],
+      "image": "carrousel-fi13024x853.jpg"
+    }
+  ]
+  
