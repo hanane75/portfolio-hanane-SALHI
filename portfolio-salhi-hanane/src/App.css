@@ -1,9 +1,25 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+ 
+
+  background: linear-gradient(to right, #f9e4d4, #a395ea);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: white;
+   /* background-color: white;*/
   }
   
   .logo {
@@ -37,6 +53,7 @@
     text-decoration: none;
     color: #666;
     font-size: 1rem;
+    FONT-WEIGHT: 600;
   }
   
   .nav ul li a:hover {
@@ -48,49 +65,64 @@
   }
   
   .btn-contact {
+    background-color: #6c63ff; /* Violet vif pour le bouton */
+    color: #ffffff; /* Blanc pour le texte du bouton */
+    border: none;
     padding: 10px 20px;
-    border: 1px solid #000;
-    text-decoration: none;
-    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
+    
   }
   
   .btn-contact:hover {
-    background-color: #000;
+    background-color: #8365ec;
     color: #fff;
   }
 
   /* Conteneur pour la section principale */
-.hero-container {
+  .hero-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #121212;
-    color: white;
-    padding: 50px;
     height: 50vh;
+    
   }
   
-  /* Section texte */
   .hero-content {
-    flex: 1;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   
-  .subheading {
-    color: #8257E6;
-    font-style: italic;
+  /* Animation fade-in pour le texte */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   
-  h1 {
-    font-size: 3rem;
-    margin: 10px 0;
+  .hero-content p, .hero-content h1 {
+    opacity: 0; /* Initialement invisible */
+    animation: fadeInUp 2s ease forwards; /* Animation */
+    color: #333333;
   }
   
-  .hero-description {
-    margin: 20px 0;
-    font-size: 1.2rem;
+  .hero-content p {
+    animation-delay: 0.5s; /* Délai pour le paragraphe */
   }
   
+  .hero-content h1 {
+    animation-delay: 1s; /* Délai pour le h1 */
+  }
+  
+ 
   
   
   /* Image et icônes flottantes */
@@ -110,31 +142,208 @@
   
   .icon {
     position: absolute;
-    background-color: white;
+    
     border-radius: 50%;
     padding: 15px;
     text-align: center;
     font-size: 1.5rem;
+    
   }
   
-  .angular {
+  .React {
     top: 10%;
-    left: 27%;
+    left: 35%;
   }
   
-  .bootstrap {
+  .CSS {
     bottom: 10%;
-    right: 30%;
+    right: 35%;
   }
   
   .vscode {
     top: 30%;
-    right: 25%;
+    right: 33%;
   }
   
-  .jquery {
+  .JS{
     bottom: 10%;
-    left: 28%;
+    left: 35%;
   }
   
+  .skills-projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    
   
+  }
+  
+  .skills-content {
+    max-width: 50%;
+  }
+  
+  .skills-content h4 {
+    color: #32CD32; /* Vert */
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .skills-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .skills-content p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .btn-get-in-touch {
+    color: #32CD32;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .skills-image {
+    max-width: 45%;
+  }
+  
+  .skills-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .projects-section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .projects-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .project-card {
+    
+    width: 20%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Blanc pour les cartes */
+  border: 1px solid #e0e0e0; /* Gris clair pour les bordures */
+  
+  }
+
+  .project-card p {
+
+    color: #000;
+  }
+ h3  {
+  color : #8365ec;
+  }
+
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .project-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #8365ec;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .project-link:hover {
+    background-color: #555;
+  }
+  
+ /*footer ***/
+
+ .footer-container {
+  text-align: center;
+  padding: 20px 0;
+ border-top:solid 2px  #666;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px; /* Espace entre les icônes */
+  padding: 10px;
+}
+
+.icon-container {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 10px; /* Ajustement du padding pour un meilleur centrage */
+  width: 40px; /* Fixe la taille du conteneur pour chaque icône */
+  height: 40px; /* Fixe la taille du conteneur pour chaque icône */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.icon-container:hover {
+  transform: scale(1.1); /* Effet zoom au survol */
+}
+
+.icon {
+  color: #a395ea; /* Couleur par défaut des icônes */
+  font-size: 50px; /* Ajustement de la taille des icônes */
+}
+
+.icon-container:hover .icon {
+  color: #ffffff; /* Changement de couleur au survol */
+}
+
+.facebook-icon {
+  color: #4267B2;
+  font-size: 20px ;/* Couleur Facebook */
+}
+
+.twitter-icon {
+  color: #1DA1F2; /* Couleur Twitter */
+  font-size: 20px;
+}
+
+.instagram-icon {
+  color: #E1306C; /* Couleur Instagram */
+  font-size: 20px;
+}
+
+.linkedin-icon {
+  color: #0A66C2; /* Couleur LinkedIn */
+  font-size: 20px;
+}
+
+/* Ajout d'un arrière-plan coloré au survol */
+.icon-container:hover .facebook-icon {
+  background-color: #4267B2;
+}
+
+.icon-container:hover .twitter-icon {
+  background-color: #1DA1F2;
+}
+
+.icon-container:hover .instagram-icon {
+  background-color: #E1306C;
+}
+
+.icon-container:hover .linkedin-icon {
+  background-color: #0A66C2;
+}

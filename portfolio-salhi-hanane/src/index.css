@@ -5,55 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-.skills-projects-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 50px 20px;
-  background-color: #f9f9f9;
-}
-
-.skills-content {
-  max-width: 50%;
-}
-
-.skills-content h4 {
-  color: #32CD32; /* Vert */
-  font-size: 1rem;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.skills-content h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.skills-content p {
-  font-size: 1.1rem;
-  color: #666;
-  margin-bottom: 20px;
-}
-
-.btn-get-in-touch {
-  color: #32CD32;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.skills-image {
-  max-width: 45%;
-}
-
-.skills-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
 }

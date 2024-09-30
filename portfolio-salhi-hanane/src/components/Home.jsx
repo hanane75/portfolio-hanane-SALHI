@@ -2,18 +2,18 @@ import React from 'react';
 import Header from './Header';
 import '../App.css';
 import HeroSection from './HeroSection';
-
-import Projects from './Projects';
+import ProjectsComponent from './ProjectsComponent';
+import Footer from './Footer';
 
 
 const Home = () => {
   return (
 
-    <section>
+    <section className='container'>
         <Header />
         <HeroSection />
-        <Projects />
-      
+        <ProjectsComponent />
+      <Footer/>
 
     </section>
    
