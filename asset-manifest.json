@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hanane75/portfolio-hanane-SALHI/static/css/main.ebed3654.css",
-    "main.js": "/hanane75/portfolio-hanane-SALHI/static/js/main.635150d1.js",
-    "static/js/453.c11ffece.chunk.js": "/hanane75/portfolio-hanane-SALHI/static/js/453.c11ffece.chunk.js",
-    "index.html": "/hanane75/portfolio-hanane-SALHI/index.html",
-    "main.ebed3654.css.map": "/hanane75/portfolio-hanane-SALHI/static/css/main.ebed3654.css.map",
-    "main.635150d1.js.map": "/hanane75/portfolio-hanane-SALHI/static/js/main.635150d1.js.map",
-    "453.c11ffece.chunk.js.map": "/hanane75/portfolio-hanane-SALHI/static/js/453.c11ffece.chunk.js.map"
+    "main.css": "/hanane75/portfolio-hanane-SALHI/tree/main/SiteWeb/static/css/main.ebed3654.css",
+    "main.js": "/hanane75/portfolio-hanane-SALHI/tree/main/SiteWeb/static/js/main.1e1045d8.js",
+    "static/js/453.c11ffece.chunk.js": "/hanane75/portfolio-hanane-SALHI/tree/main/SiteWeb/static/js/453.c11ffece.chunk.js",
+    "index.html": "/hanane75/portfolio-hanane-SALHI/tree/main/SiteWeb/index.html",
+    "main.ebed3654.css.map": "/hanane75/portfolio-hanane-SALHI/tree/main/SiteWeb/static/css/main.ebed3654.css.map",
+    "main.1e1045d8.js.map": "/hanane75/portfolio-hanane-SALHI/tree/main/SiteWeb/static/js/main.1e1045d8.js.map",
+    "453.c11ffece.chunk.js.map": "/hanane75/portfolio-hanane-SALHI/tree/main/SiteWeb/static/js/453.c11ffece.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ebed3654.css",
-    "static/js/main.635150d1.js"
+    "static/js/main.1e1045d8.js"
   ]
 }
